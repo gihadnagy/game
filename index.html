@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mario Game</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <h2>Simple Mario  Game</h2>
+    <div class="box">
+        <label>
+            <input type="checkbox" class="checkbox" data-name="01.jpg">
+            <i class="image1"></i>
+        </label>
+        <label>
+            <input type="checkbox" class="checkbox" data-name="02.jpg">
+            <i class="image2"></i>
+        </label>
+        <label>
+            <input type="checkbox" class="checkbox" data-name="03.jpg">
+            <i class="image3"></i>
+        </label>
+    </div>
+    <button class="reset">Reset Game</button>
+    <audio id="success_sound" controls class="sound">
+        <!-- <source src="flop .mp3" type="audio/mp3"> -->
+        <source src="success.mp3" type="audio/mp3">
+      </audio>
+      <audio id="flop_sound" controls class="sound">
+        <source src="flop .mp3" type="audio/mp3">
+        <!-- <source src="success.mp3" type="audio/mp3"> -->
+      </audio>
+    <script src="js/main.js"></script>
+</body>
+</html>
